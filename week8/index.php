@@ -14,3 +14,10 @@ echo "<h2>$jobTitle</h2>";
 // Use different data types
 $isStudent = true;
 $skills = array("HTML", "CSS", "JavaScript", "PHP", "Dart");
+
+// Lesson 5: Operators & Math
+// Perform a simple calculation
+$birthYear = 2002;
+$currentYear = date("Y");
+$age = $currentYear - $birthYear;
+echo "Age: " . $age;
