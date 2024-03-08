@@ -29,3 +29,11 @@ if ($age >= 18) {
 } else {
     echo "You are a minor.";
 }
+
+// Lesson 7: Loops
+// Display hobbies using a loop
+$hobbies = array("Playing", "Competing in PVP games", "Exploring new technologies");
+foreach ($hobbies as $hobby) {
+    echo "<p>$hobby</p>";
+}
+?>
