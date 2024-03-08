@@ -21,3 +21,11 @@ $birthYear = 2002;
 $currentYear = date("Y");
 $age = $currentYear - $birthYear;
 echo "Age: " . $age;
+
+// Lesson 6: Conditionals
+// Display content based on age
+if ($age >= 18) {
+    echo "You are an adult.";
+} else {
+    echo "You are a minor.";
+}
