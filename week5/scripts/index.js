@@ -120,3 +120,13 @@ section.classList.add("is-active");
 buttons.forEach(btn => {
   btn.addEventListener("click", handleButtonClick);
 });
+
+// Lesson 21: Async
+async function fetchData() {
+  const response = await fetch("https://api.example.com/data");
+  const data = await response.json();
+  // ... handle fetched data asynchronously ...
+}
+
+// Call the function to fetch data asynchronously
+fetchData();
