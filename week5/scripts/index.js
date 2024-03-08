@@ -1,3 +1,10 @@
+// Lesson 19: Modules
+const user = {
+  name: "Zach Luis Sujide",
+  age: 22,
+  hobbies: ["Playing PVP games", "Exploring new technologies"],
+};
+
 // Lesson 2: Variables, Let, Const & Data Types
 // Declaring variables using const for elements like buttons, sections, and card.
 const buttons = document.querySelectorAll(".card-buttons button");
