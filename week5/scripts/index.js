@@ -11,7 +11,14 @@ const user = {
 const buttons = document.querySelectorAll(".card-buttons button");
 const sections = document.querySelectorAll(".card-section");
 const card = document.querySelector(".card");
-  
+
+// Lesson 18: Functions
+// Function to update user information on the profile
+function updateUserProfile() {
+  document.getElementById("age").innerText = user.age;
+  // ... update other user information ...
+}
+
 // Lesson 2: Variables, Let, Const & Data Types
 // Using let to declare a variable targetSection and getting the data-section attribute.
 let targetSection = e.target.getAttribute("data-section");
