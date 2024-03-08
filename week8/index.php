@@ -9,3 +9,8 @@ $jobTitle = "Asia Pacific College Student";
 // Print profile information
 echo "<h1>$name</h1>";
 echo "<h2>$jobTitle</h2>";
+
+// Lesson 4: Data Types
+// Use different data types
+$isStudent = true;
+$skills = array("HTML", "CSS", "JavaScript", "PHP", "Dart");
