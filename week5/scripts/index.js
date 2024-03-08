@@ -24,4 +24,19 @@ const section = document.querySelector(targetSection);
 const state = targetSection;
 card.setAttribute("data-state", state);
 
-
+// Lesson 7: Arrays
+// Looping through sections array and removing "is-active" class.
+sections.forEach(s => s.classList.remove("is-active"));
+  
+// Lesson 7: Arrays
+// Looping through buttons array and removing "is-active" class.
+buttons.forEach(b => b.classList.remove("is-active"));
+  
+// Lesson 7: Arrays
+// Adding "is-active" class to the clicked button.
+e.target.classList.add("is-active");
+  
+// Lesson 7: Arrays
+// Adding "is-active" class to the selected section.
+section.classList.add("is-active");
+};
