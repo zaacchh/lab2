@@ -19,6 +19,18 @@ function updateUserProfile() {
   // ... update other user information ...
 }
 
+// Lesson 20: Classes
+class ProfileCard {
+  constructor(user) {
+    this.user = user;
+  }
+
+  updateUserProfile() {
+    document.getElementById("age").innerText = this.user.age;
+    // ... update other user information ...
+  }
+}
+
 // Lesson 2: Variables, Let, Const & Data Types
 // Using let to declare a variable targetSection and getting the data-section attribute.
 let targetSection = e.target.getAttribute("data-section");
