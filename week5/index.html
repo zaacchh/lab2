@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Profile Card</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles/index.css" />
+
+  </head>
+  <body>
+  <div class="card" data-state="#about">
+  <div class="card-header">
+    <div class="card-cover" style="background-image: url('assets/profile_pict.jpg')"></div>
+    <img class="card-avatar" src="assets/profile_pict.jpg" alt="avatar" />
+    <h1 class="card-fullname">Zach Luis Sujide</h1>
+    <h2 class="card-jobtitle">Asia Pacific College Student</h2>
+  </div>
+  <div class="card-main">
+    <div class="card-section is-active" id="about">
+      <div class="card-content">
+        <div class="card-subtitle">ABOUT</div>
+        <p class="card-desc">
+          Hello! I'm Zach Luis Sujide, an IT student. I enjoy exploring new technologies and turning ideas into reality.
+        </p>
+        <p>
+          <b>Age:</b> <span id="age">22</span> <br>
+          <b>Religion:</b> Catholic <br>
+          <b>Hobbies:</b> Playing and Competing in PVP games(Valorant, LOL, Wild rift, etc.)
+      </p>
+      </div>
+    </div>
+    <div class="card-section" id="skill">
+      <div class="card-content">
+        <div class="card-subtitle">PROGRAMMING LANGUAGE SKILLS</div>
+        <div class="card-timeline">
+          <div class="card-item" data-number="1">
+            <div class="card-item-title">HTML</div>
+            <div class="card-item-desc">Was used to create the layout of the websites.</div>
+          </div>
+          <div class="card-item" data-number="2">
+            <div class="card-item-title">CSS</div>
+            <div class="card-item-desc">Was used to design a websites.</div>
+          </div>
+          <div class="card-item" data-number="3">
+            <div class="card-item-title">JavaScript</div>
+            <div class="card-item-desc">Was used to create the functions of the websites.</div>
+          </div>
+          <div class="card-item" data-number="4">
+            <div class="card-item-title">PHP</div>
+            <div class="card-item-desc">Was used to script a websites.</div>
+          </div>
+          <div class="card-item" data-number="5">
+            <div class="card-item-title">DART</div>
+            <div class="card-item-desc">Was used to develop a mobile application.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-section" id="contact">
+      <div class="card-content">
+        <div class="card-subtitle">CONTACT</div>
+        <div class="card-contact-wrapper">
+          <div class="card-contact">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+              <circle cx="12" cy="10" r="3" /></svg>
+              Block 25 Lot 2 Sampaguita st pembo makati city
+          </div>
+          <div class="card-contact">
+            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z" />
+            </svg>(+63) 49-948-7609</div>
+          <div class="card-contact">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+              <path d="M22 6l-10 7L2 6" /></svg>
+              zdsujide@student.apc.edu.ph
+          </div>
+          <button class="contact-me"><a href="https://www.facebook.com/Sujicidal">WORK TOGETHER</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="card-buttons">
+      <button data-section="#about" class="is-active">ABOUT ME</button>
+      <button data-section="#skill">SKILLS</button>
+      <button data-section="#contact">MORE INFO</button>
+    </div>
+  </div>
+</div>
+    <script src="scripts/index.js"></script>
+  </body>
+</html>
